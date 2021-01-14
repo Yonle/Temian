@@ -5,12 +5,12 @@ Make your **Termux** into **Debian Terminal**.
 It uses [proot](https://github.com/termux/proot) to work, With Login patching.
 
 ## System Requirements
-**Minimal** uses requirenents:
+###**Minimal** uses requirenents:
   - 16 GB Internal Storage
   - Android 7+
   - 1.5 GB+ RAM
-  - 1.6 Ghz CPU
-****Recommended**** requirements:
+  - 1.6 Ghz CPU. 
+###****Recommended**** requirements:
   - 32 GB+ Internal Storage
   - Android 7+
   - 2 GB+ RAM
