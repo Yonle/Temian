@@ -28,5 +28,7 @@ This step will let's you install **Temian** on your Termux. Make sure you have a
    - Command: `cd Temian && sh install.sh`
  - **Restart Termux after installation Finished.**
 
+## Screenshot
+![screenshot](https://temian.glitch.me/assets/screenshot.jpg) 
 ## Community
  - [Discord Server](https://discord.gg/9S3ZCDR) 
