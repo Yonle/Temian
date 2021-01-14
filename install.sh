@@ -23,7 +23,7 @@ echo "--> Updating package database...."
 apt update -y
 echo "--> Installing package...."
 # Install proot, proot-distro, curl, and wget
-apt install proot* curl, wget -y
+apt install proot* curl wget pulseaudio -y
 echo "-----> Debian Installation & Patching"
 echo "--> Download & Installing Debian rootfs...."
 proot-distro install debian-buster
