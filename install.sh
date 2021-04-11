@@ -9,9 +9,9 @@ clear
 echo "-------------- WARNING --------------"
 echo "This setup will installing Temian on Termux."
 echo "After this installation, You cannot go back to your regular Termux Bash, THIS CANNOT BE UNDONE!"
-echo "\nDo backup first before running this command!!!"
-echo "\nPlease do not interrupt anything during Installation & Make sure you have a good internet connection.\n"
-echo "\nInstallation will started at 10 second"
+echo "Do backup first before running this command!!!"
+echo "Please do not interrupt anything during Installation & Make sure you have a good internet connection.\n"
+echo "Installation will started at 10 second"
 echo "Press CTRL + C To cancel this installation"
 # Wait for 10 second
 sleep 10
