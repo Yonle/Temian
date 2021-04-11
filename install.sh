@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if [ -x /data/data/com.termux/files/usr/etc/bash.bashrc ]; then
   echo "This shell file is for Termux user only."
   exit 127
