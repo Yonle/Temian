@@ -35,8 +35,8 @@ echo "$(wget http://temian.glitch.me/assets/login && chmod +x login && rm $PREFI
 
 echo "---------------------------"
 echo "Installation Completed."
-echo "\nRestart Termux to see the effect!\nWe very suggest you to install some useful things before entering to Temian! Have a good day!"
-echo "\nNeed help? We always ready for Helping!"
+echo "Do CTRL + C and Open Termux back! Have a good day!"
+echo "Need help? We always ready for Helping!"
 echo "Discord: https://discord.gg/9S3ZCDR"
 echo "---------------------------"
 
