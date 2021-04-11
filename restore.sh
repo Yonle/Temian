@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo "Are you sure to restore your Terminal into Normal Termux?"
 echo ""
 echo "This can't be Undone! (Do CTRL + C For cancel)"
