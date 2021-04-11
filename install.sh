@@ -40,4 +40,4 @@ echo "Need help? We always ready for Helping!"
 echo "Discord: https://discord.gg/9S3ZCDR"
 echo "---------------------------"
 
-exec sleep 365
+exit
