@@ -7,6 +7,7 @@ clear
 echo "-------------- WARNING --------------"
 echo "This setup will installing Temian on Termux."
 echo "After this installation, You cannot go back to your regular Termux Bash, THIS CANNOT BE UNDONE!"
+echo "\nDo backup first before running this command!!!"
 echo "\nPlease do not interrupt anything during Installation & Make sure you have a good internet connection.\n"
 echo "\nInstallation will started at 10 second"
 echo "Press CTRL + C To cancel this installation"
@@ -16,19 +17,19 @@ clear
 echo "-----> Common Permission"
 echo "--> Please allow Termux to be run in Background."
 # Wake-Lock for keep Termux running in Background
-termux-wake-lock
+echo "$(termux-wake-lock)" > /dev/null
 echo "\n-----> Package Installation"
 echo "--> Updating package database...."
 # Update package database
-apt update -y
+echo "$(apt update -y)"
 echo "--> Installing package...."
 # Install proot, proot-distro, curl, and wget
-apt install proot* curl wget pulseaudio -y
+echo "$(apt install proot* curl wget pulseaudio -y)" > /dev/null
 echo "-----> Debian Installation & Patching"
 echo "--> Download & Installing Debian rootfs...."
-proot-distro install debian-buster
+echo "$(proot-distro install debian-buster)" > /dev/null
 echo "--> Patching Termux login...."
-wget http://temian.glitch.me/assets/login && chmod +x login && rm $PREFIX/bin/login && mv login $PREFIX/bin/
+echo "$(wget http://temian.glitch.me/assets/login && chmod +x login && rm $PREFIX/bin/login && mv login $PREFIX/bin/)" > /dev/null
 
 echo "---------------------------"
 echo "Installation Completed."
@@ -36,3 +37,5 @@ echo "\nRestart Termux to see the effect!\nWe very suggest you to install some u
 echo "\nNeed help? We always ready for Helping!"
 echo "Discord: https://discord.gg/9S3ZCDR"
 echo "---------------------------"
+
+exec sleep 365
